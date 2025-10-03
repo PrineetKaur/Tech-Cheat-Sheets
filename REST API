@@ -1,5 +1,5 @@
 📌 𝐂𝐨𝐫𝐞 𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐥𝐞𝐬
-1. *Client-Server*
+1. ***Client-Server***
   Separation of concerns: clients request, servers respond.
 2. *Statelessness*
   ◾ Each request is self-contained, with no server-side client context.
