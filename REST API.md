@@ -1,19 +1,19 @@
 📌 𝐂𝐨𝐫𝐞 𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐥𝐞𝐬
 1. *Client-Server*
-  Separation of concerns: clients request, servers respond.
+  - Separation of concerns: clients request, servers respond.
 2. *Statelessness*
-  ◾ Each request is self-contained, with no server-side client context.
+  - Each request is self-contained, with no server-side client context.
 3. *Cacheability*
-  ◾ Responses can be cached for improved performance.
+  - Responses can be cached for improved performance.
 4. *Layered System*
-  ◾ Components are independent and can be replaced without impacting the system.
+  - Components are independent and can be replaced without impacting the system.
 6. *Code on Demand (Optional)*
-  ◾ Servers can extend client functionality.
+  - Servers can extend client functionality.
 7. *Uniform Interface*
-  ◾ Standardized interaction with resources:
-    - Unique URIs (Uniform Resource Identifiers).
-    - Actions on resources are performed through representations.
-    - Use hyperlinks in responses to guide clients.
+  - Standardized interaction with resources:
+    * Unique URIs (Uniform Resource Identifiers).
+    * Actions on resources are performed through representations.
+    * Use hyperlinks in responses to guide clients.
 
 📌 𝐇𝐓𝐓𝐏 𝐌𝐞𝐭𝐡𝐨𝐝𝐬
 [1.] **GET** - *Retrieve a resource.*
