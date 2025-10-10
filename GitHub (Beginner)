@@ -39,14 +39,14 @@
 
 📌 𝐖𝐨𝐫𝐤𝐟𝐥𝐨𝐰 𝐄𝐱𝐚𝐦𝐩𝐥𝐞
   git init
-  git add .
+  git add.
   git commit -m "Initial commit"
 
   git remote add origin git@github.com:user/repo.git
   git push -u origin main
 
   git checkout -b feature/new-ui
-  git add .
+  git add.
   git commit -m "Add new UI"
   git push -u origin feature/new-ui
 
@@ -94,7 +94,7 @@
 
 📌 𝐒𝐡𝐨𝐫𝐭𝐜𝐮𝐭𝐬 & 𝐓𝐫𝐢𝐜𝐤𝐬
   ◾ git log --oneline --graph --decorate - Pretty commit graph.
-  ◾ git stash / git stash pop - Save & restore unfinished work.
+  ◾ git stash/git stash pop - Save & restore unfinished work.
   ◾ git tag -a v1.0 -m "Release 1.0" - Tag a release.
   ◾ git shortlog -sn - See contributor stats.
 
