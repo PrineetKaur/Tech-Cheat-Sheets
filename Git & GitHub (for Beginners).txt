@@ -1,0 +1,100 @@
+
+📌 𝐂𝐨𝐫𝐞 𝐂𝐨𝐧𝐜𝐞𝐩𝐭𝐬
+1. Version Control
+   ◾ Tracks changes in your codebase over time.
+2. Repository (Repo)
+   ◾ A project folder managed by Git — can be local or hosted on GitHub.
+3. Commit
+   ◾ A snapshot of your project at a given time.
+4. Branch
+   ◾ A parallel version of your project — safe space to experiment.
+5. Remote
+   ◾ A shared version of your repository, usually hosted on GitHub.
+
+📌 𝐆𝐢𝐭 𝐁𝐚𝐬𝐢𝐜𝐬
+[1.] git init - Initialize a new local repository.
+[2.] git clone <url> - Copy an existing repository from GitHub.
+[3.] git status - Check the state of your working directory.
+[4.] git add <file> - Stage file(s) for commit.
+[5.] git commit -m "message" - Save changes with a message.
+[6.] git log - View commit history.
+[7.] git diff - Show file differences before committing.
+
+📌 𝐁𝐫𝐚𝐧𝐜𝐡𝐢𝐧𝐠 & 𝐌𝐞𝐫𝐠𝐢𝐧𝐠
+[1.] git branch - List branches.
+[2.] git branch <name> - Create a new branch.
+[3.] git checkout <name> - Switch to a branch.
+[4.] git merge <branch> - Merge another branch into the current one.
+[5.] git branch -d <name> - Delete a branch.
+[6.] git rebase <branch> - Move or combine commits to clean history.
+
+📌 𝐑𝐞𝐦𝐨𝐭𝐞 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐢𝐞𝐬
+[1.] git remote add origin <url> - Link your local repo to GitHub.
+[2.] git push -u origin main - Upload local commits to GitHub.
+[3.] git pull origin main - Fetch and merge latest changes from GitHub.
+[4.] git fetch - Get updates without merging.
+[5.] git remote -v - List remote connections.
+
+📌 𝐖𝐨𝐫𝐤𝐟𝐥𝐨𝐰 𝐄𝐱𝐚𝐦𝐩𝐥𝐞
+  git init
+  git add.
+  git commit -m "Initial commit"
+
+  git remote add origin git@github.com:user/repo.git
+  git push -u origin main
+
+  git checkout -b feature/new-ui
+  git add.
+  git commit -m "Add new UI"
+  git push -u origin feature/new-ui
+
+📌 𝐔𝐧𝐝𝐨𝐢𝐧𝐠 & 𝐅𝐢𝐱𝐢𝐧𝐠
+[1.] git reset HEAD <file> - Unstage a file.
+[2.] git restore <file> - Discard local changes.
+[3.] git commit --amend - Edit last commit.
+[4.] git revert <hash> - Undo a specific commit safely.
+[5.] git reflog - View all local history (even deleted commits).
+
+📌 𝐒𝐭𝐚𝐭𝐮𝐬 𝐒𝐲𝐦𝐛𝐨𝐥𝐬
+  ◾ M = Modified
+  ◾ A = Added
+  ◾ D = Deleted
+  ◾ U = Unmerged / Conflict
+  ◾ ?? = Untracked file
+
+📌 𝐁𝐞𝐬𝐭 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞𝐬
+  ◾ Commit frequently with meaningful messages.
+  ◾ Use feature branches for new changes.
+  ◾ Pull before pushing to avoid conflicts.
+  ◾ Protect main branch via GitHub settings.
+  ◾ Write clear documentation and README.
+
+📌 𝐂𝐨𝐧𝐟𝐥𝐢𝐜𝐭 𝐑𝐞𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧
+  1. Identify conflict markers (<<<<<<, ======, >>>>>>).
+  2. Choose the correct content manually.
+  3. Remove markers and save.
+  4. Stage and commit resolved files:
+     git add <file>
+     git commit
+
+📌 𝐆𝐢𝐭𝐇𝐮𝐛 𝐒𝐩𝐞𝐜𝐢𝐟𝐢𝐜
+  ◾ Fork - Copy someone else's repo to your account.
+  ◾ Pull Request (PR) - Request to merge your changes.
+  ◾ Issues - Track bugs or tasks.
+  ◾ Actions - Automate CI/CD workflows.
+  ◾ Stars - Bookmark projects you like.
+
+📌 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐓𝐢𝐩𝐬
+  ◾ Never commit secrets or API keys.
+  ◾ Enable 2FA on GitHub.
+  ◾ Use SSH keys instead of passwords.
+  ◾ Review PRs before merging.
+
+📌 𝐒𝐡𝐨𝐫𝐭𝐜𝐮𝐭𝐬 & 𝐓𝐫𝐢𝐜𝐤𝐬
+  ◾ git log --oneline --graph --decorate - Pretty commit graph.
+  ◾ git stash/git stash pop - Save & restore unfinished work.
+  ◾ git tag -a v1.0 -m "Release 1.0" - Tag a release.
+  ◾ git shortlog -sn - See contributor stats.
+
+📌 𝐅𝐮𝐫𝐭𝐡𝐞𝐫 𝐑𝐞𝐚𝐝𝐢𝐧𝐠
+  [Here](https://dev.to/lokesh_singh/i-hope-you-git-it-the-ultimate-git-guide-for-beginners-30jg) is a great read to deepen your Git knowledge.
