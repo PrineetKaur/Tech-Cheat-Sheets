@@ -95,6 +95,3 @@
   ◾ git stash/git stash pop - Save & restore unfinished work.
   ◾ git tag -a v1.0 -m "Release 1.0" - Tag a release.
   ◾ git shortlog -sn - See contributor stats.
-
-📌 𝐅𝐮𝐫𝐭𝐡𝐞𝐫 𝐑𝐞𝐚𝐝𝐢𝐧𝐠
-  [Here](https://dev.to/lokesh_singh/i-hope-you-git-it-the-ultimate-git-guide-for-beginners-30jg) is a great read to deepen your Git knowledge.
