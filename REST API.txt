@@ -66,5 +66,3 @@
   ◾ CORS (Cross-Origin Resource Sharing)
   ◾ Security Headers
   ◾ Security Monitoring
-
-[Here](https://dev.to/leapcell/mastering-restful-api-design-a-practical-guide-408) is an interesting link if you wish to further understand RESTful APIs
