@@ -1,0 +1,78 @@
+=============================================================================================================
+𝐃𝐄𝐒𝐈𝐆𝐍 𝐏𝐀𝐓𝐓𝐄𝐑𝐍𝐒
+=============================================================================================================
+
+📌 𝐃𝐄𝐒𝐈𝐆𝐍 𝐏𝐀𝐓𝐓𝐄𝐑𝐍𝐒 – 𝐂𝐎𝐑𝐄 𝐂𝐎𝐍𝐂𝐄𝐏𝐓𝐒
+◾ Design patterns are reusable solutions to common software design problems.
+◾ They are templates, not full implementations.
+◾ Help make code flexible, reusable, and maintainable.
+
+📌 𝐂𝐀𝐓𝐄𝐆𝐎𝐑𝐈𝐄𝐒 𝐎𝐅 𝐃𝐄𝐒𝐈𝐆𝐍 𝐏𝐀𝐓𝐓𝐄𝐑𝐍𝐒
+[1.] Creational Patterns - Object creation
+◾ Singleton
+◾ Factory Method
+◾ Abstract Factory
+◾ Builder
+◾ Prototype
+
+[2.] Structural Patterns - Object composition
+◾ Adapter
+◾ Decorator
+◾ Facade
+◾ Composite
+◾ Proxy
+◾ Flyweight
+
+[3.] Behavioral Patterns - Object interaction
+◾ Observer
+◾ Strategy
+◾ Template Method
+◾ Command
+◾ Iterator
+◾ State
+◾ Mediator
+◾ Chain of Responsibility
+
+📌 𝐂𝐎𝐌𝐌𝐎𝐍 𝐏𝐀𝐓𝐓𝐄𝐑𝐍𝐒 – 𝐒𝐔𝐌𝐌𝐀𝐑𝐘
+[1.] Singleton
+◾ Ensures only one instance exists.
+◾ Used for configuration, logging, etc.
+
+[2.] Factory Method
+◾ Creates objects without exposing creation logic.
+◾ Used when object type is determined at runtime.
+
+[3.] Builder
+◾ Builds complex objects step-by-step.
+◾ Useful when many optional fields exist.
+
+[4.] Adapter
+◾ Converts one interface into another.
+◾ Used to integrate incompatible APIs.
+
+[5.] Decorator
+◾ Adds functionality to objects at runtime.
+◾ Alternative to subclassing.
+
+[6.] Facade
+◾ Provides a simplified interface to a complex system.
+
+[7.] Observer
+◾ One-to-many notification model.
+◾ Used in event-driven systems.
+
+[8.] Strategy
+◾ Allows selecting algorithms at runtime.
+
+📌 𝐄𝐗𝐀𝐌𝐏𝐋𝐄 (𝐏𝐒𝐄𝐔𝐃𝐎 𝐂𝐎𝐃𝐄)
+Class Logger {
+   private static instance = null
+
+   private Logger() {}
+
+   public static getInstance() {
+      if (instance == null)
+         instance = new Logger()
+      return instance
+   }
+}
