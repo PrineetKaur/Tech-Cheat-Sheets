@@ -1,0 +1,58 @@
+=============================================================================================================
+𝐌𝐈𝐂𝐑𝐎𝐒𝐄𝐑𝐕𝐈𝐂𝐄𝐒 𝐀𝐑𝐂𝐇𝐈𝐓𝐄𝐂𝐓𝐔𝐑𝐄
+=============================================================================================================
+
+📌 𝐖𝐇𝐀𝐓 𝐀𝐑𝐄 𝐌𝐈𝐂𝐑𝐎𝐒𝐄𝐑𝐕𝐈𝐂𝐄𝐒
+◾ The Architectural style that splits applications into small services.
+◾ Each service handles a single business capability.
+◾ Services communicate via HTTP or messaging.
+
+📌 𝐂𝐎𝐑𝐄 𝐏𝐑𝐈𝐍𝐂𝐈𝐏𝐋𝐄𝐒
+[1.] Single Responsibility
+◾ One service = one business function.
+
+[2.] Independent Deployability
+◾ Services can be deployed without affecting others.
+
+[3.] Decentralized Data
+◾ Each service owns its database.
+
+[4.] Automation
+◾ CI/CD pipelines, automated testing and deployment.
+
+[5.] Resilience
+◾ Retries, timeouts, circuit breakers.
+
+📌 𝐂𝐎𝐌𝐌𝐎𝐍 𝐌𝐈𝐂𝐑𝐎𝐒𝐄𝐑𝐕𝐈𝐂𝐄 𝐏𝐀𝐓𝐓𝐄𝐑𝐍𝐒
+[1.] API Gateway
+◾ Single entry point for clients.
+◾ Handles routing, auth, rate limiting.
+
+[2.] Service Discovery
+◾ Services dynamically discover each other.
+
+[3.] Circuit Breaker
+◾ Prevents cascading failures.
+
+[4.] Saga Pattern
+◾ Manages distributed transactions.
+
+[5.] Event-Driven Architecture
+◾ Services communicate through events (Kafka, RabbitMQ).
+
+[6.] CQRS
+◾ Separate read and write models.
+
+📌 𝐁𝐄𝐒𝐓 𝐏𝐑𝐀𝐂𝐓𝐈𝐂𝐄𝐒
+[1.] Keep services small and focused.
+[2.] Prefer asynchronous communication.
+[3.] Avoid shared databases.
+[4.] Implement observability.
+[5.] Use Docker and Kubernetes.
+[6.] Secure service boundaries (auth, TLS).
+
+📌 𝐒𝐈𝐌𝐏𝐋𝐄 𝐅𝐋𝐎𝐖 𝐄𝐗𝐀𝐌𝐏𝐋𝐄
+Client → API Gateway → Service A  
+Service A → Queue/Event Bus → Service B  
+Service A → Its Own Database  
+Service B → Its Own Database
