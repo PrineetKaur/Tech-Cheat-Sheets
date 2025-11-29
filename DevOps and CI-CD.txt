@@ -1,0 +1,56 @@
+=============================================================================================================
+𝐃𝐄𝐕𝐎𝐏𝐒 & 𝐂𝐈/𝐂𝐃
+=============================================================================================================
+
+📌 𝐂𝐎𝐑𝐄 𝐃𝐄𝐕𝐎𝐏𝐒 𝐂𝐎𝐍𝐂𝐄𝐏𝐓𝐒
+◾ Combines development and operations.
+◾ Improves delivery speed, automation, and reliability.
+
+📌 𝐂𝐈 – 𝐂𝐎𝐍𝐓𝐈𝐍𝐔𝐎𝐔𝐒 𝐈𝐍𝐓𝐄𝐆𝐑𝐀𝐓𝐈𝐎𝐍
+[1.] Developers push code frequently.
+[2.] Automated builds trigger on every push.
+[3.] Automated tests run.
+[4.] Issues are detected early.
+
+📌 𝐂𝐃 – 𝐂𝐎𝐍𝐓𝐈𝐍𝐔𝐎𝐔𝐒 𝐃𝐄𝐋𝐈𝐕𝐄𝐑𝐘 / 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓
+[1.] Package build artifacts automatically.
+[2.] Deploy to staging or production.
+[3.] Enable fast and reliable releases.
+
+📌 𝐂𝐎𝐌𝐌𝐎𝐍 𝐃𝐄𝐕𝐎𝐏𝐒 𝐓𝐎𝐎𝐋𝐒
+◾ CI/CD - GitHub Actions, Jenkins, GitLab CI
+◾ Containers - Docker
+◾ Orchestration - Kubernetes
+◾ IaC - Terraform, Ansible
+◾ Monitoring - Prometheus, Grafana
+◾ Logging - ELK Stack
+◾ Tracing - Jaeger
+
+📌 𝐏𝐈𝐏𝐄𝐋𝐈𝐍𝐄 𝐒𝐓𝐄𝐏𝐒
+[1.] Build
+◾ Compile or bundle application.
+
+[2.] Test
+◾ Unit tests
+◾ Integration tests
+
+[3.] Package
+◾ Create artifact or container image.
+
+[4.] Deploy
+◾ Push to environment.
+◾ Use blue-green, canary, or rolling deployments.
+
+📌 𝐁𝐄𝐒𝐓 𝐏𝐑𝐀𝐂𝐓𝐈𝐂𝐄𝐒
+[1.] Automate everything.
+[2.] Use versioned artifacts.
+[3.] Manage secrets securely.
+[4.] Implement rollback strategies.
+[5.] Monitor logs, metrics, and errors.
+[6.] Use infrastructure as code.
+
+📌 𝐄𝐗𝐀𝐌𝐏𝐋𝐄 𝐏𝐈𝐏𝐄𝐋𝐈𝐍𝐄 (𝐏𝐋𝐀𝐈𝐍 𝐓𝐄𝐗𝐓)
+stages: build → test → deploy  
+build: compile application  
+test: run test suite  
+deploy: push container and restart service
